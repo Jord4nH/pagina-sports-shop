@@ -1,0 +1,243 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background: #171717;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar {
+    display: flex;
+    margin-right: 10px;
+}
+
+.logo {
+    margin-right: 30px;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a {
+    display: block;
+    padding: 20px 20px;
+    color: rgb(0, 59, 252);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.navbar a:hover {
+    background: #3f3f3f;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.header {
+    height: 50vh !important;
+    background: url(img/costos.jpg) no-repeat center;
+    background-size: cover;
+    background-position: center;
+}
+
+.title {
+    font-family:'Times New Roman', Times, serif;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: rgb(5, 96, 233);
+}
+
+p {
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: #fff;
+    padding: 0 100px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid #030322;
+    color: #fff;
+    text-decoration: none;
+    background: #1900ff;
+}
+
+.btn:hover {
+    background: none;
+    
+}
+
+.btn-home {
+    display: flex;
+}
+
+.btn-home a {
+    margin: 0 10px;
+}
+
+.content {
+    background: url(img/costos.jpg);
+    background-size: contain;
+    background-position: center;
+    height: 55vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sau {
+    padding: 244px;
+    height: 180%;
+}
+.containbox{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    float: left;
+    width: 100%;
+    height: 100%;
+    background: url(img/1.jpg);
+    background-size: contain;
+}
+.boxs{
+    width: 500px;
+    height: 500px;
+    background: url(img/about.jpg) ;
+    border-radius: 15%;
+    margin: 20px;
+    float: left;
+}
+.borde{
+    background: #fff;
+    padding: 2px 5px;
+    border: 2px solid #030322;
+}
+.dollar{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 40px;
+}
+.base{
+    background: url(img/base.jpg);
+    background-size: contain;
+    border: 3px solid #2f00ff;
+    height: max-content;
+    width: 550px;
+}
+.box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+
+}
+
+.box-container .box {
+    height: 11rem;
+    width: 17rem;
+    background: #101010;
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 5rem rgba(0, 0 , 0, .5);
+    margin: 2rem;   
+}
+
+.box-container .box i {
+    height: 6rem;
+    width: 6rem;
+    line-height: 10rem;
+    text-align: center;
+    border-radius: 50%;
+    color: rgb(74, 243, 255);
+    background: #38a9d6;
+    font-size: 2rem;
+    margin: 1rem 0;
+
+}
+
+.box-container .box h3 {
+    font-size: 20px;
+    color: #00c3ff;
+
+}
+
+.box-container .box p {
+    padding: 0 15px;
+    font-size: 16px;
+}
+
+.about {
+    height: 55vh !important;
+    background: url(img/about1.jpg);
+    background-size:cover;
+    background-position: center;
+}
+
+.price {
+    background: url(img/1.jpg) no-repeat center;
+    background-size:cover;
+    text-align: center;
+}
+
+.contact {
+    padding-top: 20px;
+    background: url(img/costos.jpg) no-repeat center;
+    padding-bottom: 0;
+}
+
+.final{
+    background: #171717;
+    background-size:cover;
+    padding-bottom: 10px;
+    height: max-content;
+}
+
+@media (max-width: 768px) {
+
+    .title {
+        margin-bottom: 0;
+        font-size: 40px;
+    }
+
+    .sau {
+        height: 100vh;
+    }
+
+    .navbar {
+        display: none;
+    }
+   
+    
+}
